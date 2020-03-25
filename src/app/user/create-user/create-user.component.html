@@ -1,0 +1,17 @@
+<form [formGroup]="userForm">
+  <div class="form-group">
+    <label>User name</label>
+    <input class="form-control" formControlName="userName" placeholder="Enter your name">
+    <small class="text-danger" *ngIf="isValid('userName','required')">
+      Please enter your user name.
+    </small>
+  </div>
+  <div class="form-group">
+    <label>Job</label>
+    <input class="form-control" formControlName="userJob" placeholder="Enter your job">
+    <small class="text-danger" *ngIf="isValid('userJob','required')">
+      Please enter your job.
+    </small>
+  </div>
+  <button (click)="submit()" [disabled]="userForm.invalid" type="submit" class="btn btn-primary">Submit</button>
+</form>

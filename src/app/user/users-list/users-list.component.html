@@ -1,0 +1,19 @@
+
+
+<div class="card-container">
+  <div class="card-columns">
+    <div class="card text-white bg-dark mb-3" *ngFor="let user of users">
+      <a [routerLink]="['../user-profile',user.id]">
+        <img class="card-img-top" src="{{user.avatar}}" alt="Card image cap">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title">{{user.first_name}} {{user.last_name}} </h5>
+        <p class="card-text">{{user.email}}</p>
+      </div>
+      <!-- <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small> 
+    </div> -->
+    </div>
+
+  </div>
+</div>
