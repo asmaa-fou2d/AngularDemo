@@ -1,0 +1,106 @@
+{
+    "companies": [
+        {
+            "id": 1,
+            "name": "Micosoft",
+            "logo": "assets/Images/Micosoft.png"
+        },
+        {
+            "id": 2,
+            "name": "Amazon",
+            "logo": "assets/Images/Amazon.png"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "email": "test@yahoo.com",
+            "first_name": "test",
+            "last_name": "test",
+            "age": 30,
+            "avatar": "assets/Images/avatar.png",
+            "companyId": 1,
+            "compnay_name": "Micosoft"
+        },
+        {
+            "id": 1,
+            "email": "test@yahoo.com",
+            "first_name": "test",
+            "last_name": "test",
+            "age": 30,
+            "avatar": "assets/Images/avatar.png",
+            "companyId": 1,
+            "compnay_name": "Micosoft"
+        },
+        {
+            "id": 1,
+            "email": "test@yahoo.com",
+            "first_name": "test",
+            "last_name": "test",
+            "age": 30,
+            "avatar": "assets/Images/avatar.png",
+            "companyId": 1,
+            "compnay_name": "Micosoft"
+        },
+        {
+            "id": 1,
+            "email": "test@yahoo.com",
+            "first_name": "test",
+            "last_name": "test",
+            "age": 30,
+            "avatar": "assets/Images/avatar.png",
+            "companyId": 1,
+            "compnay_name": "Micosoft"
+        },
+        {
+            "id": 1,
+            "email": "test@yahoo.com",
+            "first_name": "test",
+            "last_name": "test",
+            "age": 30,
+            "avatar": "assets/Images/avatar.png",
+            "companyId": 1,
+            "compnay_name": "Micosoft"
+        },
+        {
+            "id": 1,
+            "email": "test@yahoo.com",
+            "first_name": "test",
+            "last_name": "test",
+            "age": 30,
+            "avatar": "assets/Images/avatar.png",
+            "companyId": 1,
+            "compnay_name": "Micosoft"
+        },
+        {
+            "id": 1,
+            "email": "test@yahoo.com",
+            "first_name": "test",
+            "last_name": "test",
+            "age": 30,
+            "avatar": "assets/Images/avatar.png",
+            "companyId": 2,
+            "compnay_name": "Amazon"
+        },
+        {
+            "id": 1,
+            "email": "test@yahoo.com",
+            "first_name": "test",
+            "last_name": "test",
+            "age": 30,
+            "avatar": "assets/Images/avatar.png",
+            "companyId": 2,
+            "compnay_name": "Amazon"
+        },
+        {
+            "id": 1,
+            "email": "test@yahoo.com",
+            "first_name": "test",
+            "last_name": "test",
+            "age": 30,
+            "avatar": "assets/Images/avatar.png",
+            "companyId": 2,
+            "compnay_name": "Amazon"
+        }
+    ]
+}

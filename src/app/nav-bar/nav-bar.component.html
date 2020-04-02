@@ -12,14 +12,22 @@
       </li> -->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Users
+          Companies
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="['/companies/companies-list']">Companies list</a>
+          <a class="dropdown-item" [routerLink]="['/companies/create-company']">Create company</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Users
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" [routerLink]="['/users/users-list']">Users list</a>
-          <a class="dropdown-item" [routerLink]="['/users/create-user']">Create User</a>
+          <a class="dropdown-item" [routerLink]="['/users/create-user']">Create user</a>
         </div>
       </li>
-
     </ul>
   </div>
 </nav>

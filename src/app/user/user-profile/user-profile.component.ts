@@ -20,8 +20,8 @@ export class UserProfileComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.userService.GetUser(Number(this.userId)).subscribe((result: any) => {
-      this.user = result.data;
+    this.userService.GetUser(Number(this.userId)).subscribe((result: User) => {
+      this.user = result;
     });
   }
 

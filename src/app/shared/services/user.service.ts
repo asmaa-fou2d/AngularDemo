@@ -11,14 +11,13 @@ import { CreateUsertModel } from '../models/create-user.model';
 })
 
 export class UserService {
-
   // Base url
-  baseurl = 'https://reqres.in/api/';
+  baseurl = 'http://localhost:3000/';
 
   constructor(private http: HttpClient) { }
 
-  GetAllUsers(): Observable<UserListModel> {
-    return this.http.get<UserListModel>(this.baseurl + 'users');
+  GetAllUsers(): Observable<User[]> {
+    return this.http.get<User[]>(this.baseurl + 'users');
   }
 
   GetUser(Id: number): Observable<User> {
